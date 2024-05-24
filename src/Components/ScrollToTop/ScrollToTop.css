@@ -1,0 +1,12 @@
+#scrollToTop{
+position: fixed;
+bottom: 10px;
+right: 10px;
+background-image: linear-gradient(to right bottom  ,#000278 , #00D7FF);
+border: none;
+padding: 10px 20px;
+color: aliceblue;
+border-radius: 10px;
+font-size: 20px;
+box-shadow: 3px 3px 7px rgba(145, 159, 164, 0.657);
+}

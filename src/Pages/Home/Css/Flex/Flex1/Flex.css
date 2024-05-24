@@ -1,0 +1,165 @@
+.main {
+  max-width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding: 20px 0 ;
+  /* display: flex; */
+  /* align-items: center; */
+  /* gap: 30px; */
+  /* background-image: linear-gradient(#C02425,#f08c35,#b43aac); */
+  /* background-image: radial-gradient(rgb(0, 79, 22),black); */
+  background-image: linear-gradient(to right, #69aceb, #095a9d);
+
+  /* background-image: radial-gradient(rgb(0, 0, 79),black); */
+}
+
+.level {
+  height: 5%;
+}
+.main h1, .main2 h1 ,.main3 h1, .main4 h1, .main5   h1 , .main6 h1 , .main7 h1 , .main8 h1{
+  font-size: 30px;
+}
+.gameContainer {
+  width: 100%;
+  height: 90%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.container {
+  width: 50%;
+  height: 70%;
+  /* background-image: url('https://cdn.vectorstock.com/i/500p/42/78/sunset-landscape-with-sea-and-mountains-vector-38924278.avif');
+
+
+    background-image: url('https://cdn.vectorstock.com/i/500p/00/68/natural-cartoon-landscape-with-mountains-and-lake-vector-49010068.avif');
+
+
+    background-image: url('https://cdn.vectorstock.com/i/500p/03/61/mountains-winter-vector-39870361.avif');
+
+    background-image: url('https://cdn.pixabay.com/photo/2023/11/29/03/52/ai-generated-8418631_1280.jpg'); */
+
+  background-image: url("../assets/ground.png"), url("../assets/sky.jpg");
+  /* background-image: url('./assets/ground2.jpg'); */
+  border-radius: 5px;
+  background-position: right bottom, left top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.land {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+  /* width: 20%;
+    height: 10%;
+    background-image: url('./assets/bricks.png');
+    background-size: 33%;
+    background-repeat: repeat; */
+}
+
+.land img {
+  width: 50px;
+}
+
+.object img {
+  width: 100px;
+  height: 100px;
+}
+.object {
+  /* width: 200px; */
+  /* height: 200px; */
+  /* background-image: url('./assets/pikachu.png'); */
+  /* background-image: url('./assets/grassPokemon.png'); */
+  /* background-image: url('./assets/icePokemon.png'); */
+  /* background-image: url('./assets/flyingPokemon2.png'); */
+  /* background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.inputHeadings {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer input {
+  width: 300px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.inputContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputContainer button {
+  width: 120px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#nextLevel {
+  min-width:150px;
+  background-color: #d4f1f8;
+  border: none;
+  border-radius: 7px;
+}
+
+#level {
+  display: flex;
+  gap: 20px;
+}
+
+span {
+  font-weight: 300;
+  font-style: italic;
+
+}
+
+
+.main h1 , .main2 h1 , .main3 h1 , .main4 h1 , .main5 h1  , .main6 h1 , .main7 h1 , .main8 h1 {
+  color: aliceblue;
+  width: 90%;
+  margin: 10px;
+  /* padding: 10px; */
+}

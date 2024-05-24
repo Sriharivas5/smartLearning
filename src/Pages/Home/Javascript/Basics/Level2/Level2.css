@@ -1,0 +1,109 @@
+.level2main{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(white, blue);
+    display: flex;
+    
+}
+
+.level2_left{
+    border: 1px solid black;
+    width: 50vw;
+    height: 100vh;
+    border-radius: 50px;
+    background-image: url('../../JS_Assets/angry-jerry-mouse-free-vector.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.level2_right{
+    border : 1px solid black;
+    border-radius: 50px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* font-size: 30px; */
+    font-size: clamp(16px,1.5vw,30px);
+    font-size: clamp(16px, 1.3vw, 30px); 
+    text-align: center;
+
+}
+
+.level2text{
+    resize: none;
+    width: 100%;
+    height: 80%;
+    /* font-size: 40px; */
+    font-size: clamp(16px,1.5vw,30px);
+
+}
+
+.level2_right_top{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    align-items: center;
+    
+}
+.level2_rght_bottom{
+    width: 50vw;
+    height: 50%;
+
+}
+
+.level2_btn_contrainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.level2_btn_contrainer button{
+    width: 150px;
+    height: 60px;
+    /* font-size: 20px; */
+    font-size: clamp(16px,1.5vw,30px);
+
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+.new_level2_left{
+    border: 1px solid black;
+    width: 50vw;
+    height: 100vh;
+    border-radius: 50px;
+    background-image: url('../../JS_Assets/Poiting_Upside.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* font-size: 40px; */
+    font-size: clamp(16px,1.5vw,30px);
+
+}
+
+.new_level2_left1{
+    border: 1px solid black;
+    width: 50vw;
+    height: 100vh;
+    border-radius: 50px;
+    background-image: url('../../JS_Assets/angry-jerry-mouse-free-vector.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* font-size: 40px; */
+    font-size: clamp(16px,1.5vw,30px);
+
+}
+
+
+.level2_left_p{
+    position: absolute;
+    bottom: 110px;
+}

@@ -1,0 +1,119 @@
+.level3main{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(white, blue);
+    display: flex;
+
+
+}
+
+h1,h2,h3,h4,h5,h6,p,code,a,textarea{
+    font-size: clamp(16px,1.5vw,30px);
+}
+
+.level3_left{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-image: url('../../JS_Assets/angry-jerry-mouse-free-vector.jpeg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background: transparent; */
+    background-size: cover;
+
+ 
+}
+
+.left_img{
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+    
+}
+.left_img1{
+    width: 300px; 
+    height: 300px;
+    position: absolute;
+    bottom: -10px;
+    left: 570px;
+}
+.level3_right{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.level3_right_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 50px;
+
+
+}
+.level3_right_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+textarea{
+    resize: none;
+    width: 90%;
+    height: 90%;
+}
+
+.level3main button{
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.para_level3{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+
+.level3_new{
+    
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-image: url('../../JS_Assets/success.webp'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background: transparent; */
+    background-size: cover;
+    color: white;
+}
+
+.level3_new1{
+    
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-image: url('../../JS_Assets/angry-jerry-mouse-free-vector.jpeg'); 
+    background-repeat: no-repeat;
+    
+    /* background: transparent; */
+    background-size: cover;
+}

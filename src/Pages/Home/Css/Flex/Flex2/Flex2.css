@@ -1,0 +1,128 @@
+.main2 {
+  max-width: 100vw;
+  height: 100vh;
+  padding: 10px;
+  text-align: center;
+  background-image: linear-gradient(to right, #69aceb, #095a9d);
+  padding: 20px 0;
+}
+
+.leve2 {
+  height: 5%;
+}
+
+.gameContainer2 {
+  width: 100%;
+  height: 90%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.container2 {
+  width: 50%;
+  height: 70%;
+  background-image: url("../assets/ground.png"), url("../assets/sky.jpg");
+  border-radius: 5px;
+  background-position: right bottom, left top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.land2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+  /* border: 2px solid red; */
+  /* width: 20%;
+    height: 10%;
+    background-image: url('./assets/bricks.png');
+    background-size: 33%;
+    background-repeat: repeat; */
+}
+
+.land2 img {
+  width: 50px;
+}
+
+.object2 img {
+  width: 100px;
+  height: 100px;
+}
+
+.object2 {
+  /* width: 200px; */
+  /* height: 200px; */
+  /* background-image: url('./assets/pikachu.png'); */
+  /* background-image: url('./assets/grassPokemon.png'); */
+  /* background-image: url('./assets/icePokemon.png'); */
+  /* background-image: url('./assets/flyingPokemon2.png'); */
+  /* background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.inputHeadings2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer2 input {
+  width: 300px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.inputContainer2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.input2 {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+
+.inputDiv2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputContainer2 button {
+  width: 120px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#nextLevel2 {
+  background-color: #d4f1f8;
+  border: none;
+  border-radius: 7px;
+}

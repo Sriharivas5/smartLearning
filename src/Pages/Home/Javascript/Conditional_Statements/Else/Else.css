@@ -1,0 +1,19 @@
+.else_main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    
+}
+
+.else_left{
+    width: 50%;
+    height: 100%;
+    border: 1ps solid black;
+}
+
+
+.else_right{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}

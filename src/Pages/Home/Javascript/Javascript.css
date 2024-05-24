@@ -1,0 +1,35 @@
+.main1{
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url('../Javascript/JS_Assets/Javascript_Background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white  ;
+    font-size: 30px;
+    box-shadow: 5px 10px #0e0d0d;
+    padding-left: 200px;
+    
+
+}
+
+.main1 h1 {
+    color: white;
+}
+
+p{
+    width: 500px;
+}
+.main1 button{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(4, 4, 85);
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+
+}
