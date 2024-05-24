@@ -3,7 +3,7 @@ import "./Flex8.css";
 import bricks from "../assets/bricks.png";
 import mario from "../assets/mario.png";
 import powerUp from "../assets/pinkPowerUp.png";
-import powerUpRed from "../assets/redPowerUP.png";
+import powerUpRed from "../assets/redPowerUp.png";
 
 import { Link } from "react-router-dom";
 
