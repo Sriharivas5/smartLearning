@@ -31,13 +31,13 @@
 }
 
 .positionInputHeading {
-  padding:  0 50px ;
+  padding: 0 50px;
 }
-.positionInputHeading h2{
+.positionInputHeading h2 {
   color: rgb(255, 255, 255);
 }
 
-.positionInputHeading h3{
+.positionInputHeading h3 {
   color: black;
   font-size: 19px;
   font-style: italic;

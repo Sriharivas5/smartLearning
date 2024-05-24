@@ -34,8 +34,9 @@ const Selectors = () => {
       <div className="selectors">
         <div className="objects">
           <img src={tigerGif} class="tiger" id={changedId && "reversedTiger"} />
-          {showCondition &&
-            finalInput === "p" && <img src={hemanPng} id="hemanPng" />}
+          {showCondition && finalInput === "p" && (
+            <img src={hemanPng} id="hemanPng" />
+          )}
           <img src={girPng2} id="girl" />
         </div>
         {/* <div className='eating'>

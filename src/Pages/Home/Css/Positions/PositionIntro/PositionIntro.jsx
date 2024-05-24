@@ -4,11 +4,8 @@ import ScrollToTop from "../../../../../Components/ScrollToTop/ScrollToTop";
 import "./PositionIntro.css";
 
 const PositionIntro = () => {
-
-
-  const accessRelativeData = "div{ position :relative , left: 100px } " ;
-  const accessAbsoluteData = "div{ position :absolute , left: 100px } " ;
-
+  const accessRelativeData = "div{ position :relative , left: 100px } ";
+  const accessAbsoluteData = "div{ position :absolute , left: 100px } ";
 
   return (
     <div className="PositionIntro">
@@ -64,17 +61,18 @@ const PositionIntro = () => {
           <div className="exampleSelctorHeading">
             <h2> Relative :</h2>
           </div>
-          <div className="positionContainer alignCenter" >
-            <div className="positionBox" >div</div>
+          <div className="positionContainer alignCenter">
+            <div className="positionBox">div</div>
           </div>
-          <div className="positionContainer alignCenter" >
-            <div className="positionBox alignRelative" >div</div>
+          <div className="positionContainer alignCenter">
+            <div className="positionBox alignRelative">div</div>
           </div>
         </div>
         <div className="intro">
           <div className="positionintroContent">
             <h4>
-              Consider above example in the first one we placed it center using flex properties
+              Consider above example in the first one we placed it center using
+              flex properties
             </h4>
             <h4>
               &#8594; An element with position: relative is positioned relative
@@ -86,11 +84,9 @@ const PositionIntro = () => {
               from its normal position.
             </h4>
             <h4>
-              &#8594;Lets  move it's position using position relative property
+              &#8594;Lets move it's position using position relative property
             </h4>
-            <h4>
-              &#8594;Second one will be the output for below code
-            </h4>
+            <h4>&#8594;Second one will be the output for below code</h4>
           </div>
           <div className="positionIntropoints">
             <h4> {accessRelativeData}</h4>
@@ -100,33 +96,36 @@ const PositionIntro = () => {
           <div className="exampleSelctorHeading">
             <h2> Absolute :</h2>
           </div>
-          <div className="positionContainer alignCenter" >
-            <div className="positionBox" >div</div>
+          <div className="positionContainer alignCenter">
+            <div className="positionBox">div</div>
           </div>
-          <div className="positionContainer alignCenter" >
-            <div className="positionBox alignAbsolute" >div</div>
+          <div className="positionContainer alignCenter">
+            <div className="positionBox alignAbsolute">div</div>
           </div>
         </div>
         <div className="intro">
           <div className="positionintroContent">
             <h4>
-              Consider above example in the first one we placed it center using flex properties
+              Consider above example in the first one we placed it center using
+              flex properties
             </h4>
             <h4>
-              &#8594; An element with position: absolute is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+              &#8594; An element with position: absolute is positioned relative
+              to the nearest positioned ancestor (instead of positioned relative
+              to the viewport, like fixed).
             </h4>
             <h4>
-              &#8594;However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+              &#8594;However; if an absolute positioned element has no
+              positioned ancestors, it uses the document body, and moves along
+              with page scrolling.
             </h4>
             <h4>
-              &#8594;Like relative we can use left right top bottom for it 
+              &#8594;Like relative we can use left right top bottom for it
             </h4>
             <h4>
-              &#8594;Lets  move it's position using position absolute property
+              &#8594;Lets move it's position using position absolute property
             </h4>
-            <h4>
-              &#8594;Second one will be the output for below code
-            </h4>
+            <h4>&#8594;Second one will be the output for below code</h4>
           </div>
           <div className="positionIntropoints">
             <h4> {accessAbsoluteData}</h4>

@@ -30,7 +30,7 @@ const Flex5 = () => {
     ) {
       setButton(true);
     }
-  }, [justifyContent, alignItems,flexDirection]);
+  }, [justifyContent, alignItems, flexDirection]);
   return (
     <div className="main5">
       <div className="level5">
@@ -68,9 +68,19 @@ const Flex5 = () => {
           <div className="inputHeadings5">
             <h1>Help the mario to reach the blocks</h1>
             <h3>Use the properties like </h3>
-            <h3>Justify-Content: <span className="italic">space-between, space-evenly, space-around</span></h3>
-            <h3>Align-items: <span>center, flex-start, flex-end</span></h3>
-            <h3>Flex-direction : <span>column, column-reverse, row ,row-reverse</span></h3>
+            <h3>
+              Justify-Content:{" "}
+              <span className="italic">
+                space-between, space-evenly, space-around
+              </span>
+            </h3>
+            <h3>
+              Align-items: <span>center, flex-start, flex-end</span>
+            </h3>
+            <h3>
+              Flex-direction :{" "}
+              <span>column, column-reverse, row ,row-reverse</span>
+            </h3>
           </div>
 
           <div className="input5">

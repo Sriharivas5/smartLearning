@@ -1,293 +1,275 @@
 .flexIntro {
-    padding: 20px 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url('../../../assets/introBackground.jpeg');
-    filter: contrast(130%);
-    background-size: cover;
-    color: aliceblue;
-    background-position:0% 20% ;
-    background-attachment: fixed;
-    gap: 30px;
+  padding: 20px 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../../assets/introBackground.jpeg");
+  filter: contrast(130%);
+  background-size: cover;
+  color: aliceblue;
+  background-position: 0% 20%;
+  background-attachment: fixed;
+  gap: 30px;
 }
 
-
 .headindFlex {
-    border: 3px solid rgba(255, 255, 255, 0.496);
-    width: 45%;
-    padding: 40px;
-    border-radius: 50px;
+  border: 3px solid rgba(255, 255, 255, 0.496);
+  width: 45%;
+  padding: 40px;
+  border-radius: 50px;
 }
 
 .headindFlex h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
-.flexIntroHeader{
-    padding-left: 100px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
+.flexIntroHeader {
+  padding-left: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .flexIntroHeader h2 {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
 }
 
 .flexIntroHeader h3 {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .flexMain {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 button {
-    padding: 10px 30px;
+  padding: 10px 30px;
 }
 
 .buttonContainer {
-    padding: 40px 0 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  padding: 40px 0 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #flexStart {
-    color: aliceblue;
-    font-size: 20px;
-    border: none;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
-    padding: 15px 45px;
-    text-align: center;
-    transition: 0.5s;
-    color: white;
-    box-shadow: 0 0 10px #ffffff;
-    background-size: 200% auto;
-  
-
+  color: aliceblue;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #da22ff 0%,
+    #9733ee 51%,
+    #da22ff 100%
+  );
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+  color: white;
+  box-shadow: 0 0 10px #ffffff;
+  background-size: 200% auto;
 }
-
 
 #flexStart:hover {
-    background-position: right center;
-    color: #fff;
-    text-decoration: none;
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
 
-
-
-
-
 .exampleFlex {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .exampleFlexHeading {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .flexContainer {
-    width: 70%;
-    /* height: 300px; */
-    border: 2px solid white;
-    /* display: flex;
+  width: 70%;
+  /* height: 300px; */
+  border: 2px solid white;
+  /* display: flex;
     justify-content:space-evenly; */
 }
 
 .flexStart {
-    height: 300px;
-    display: flex;
-    justify-content: flex-start;
+  height: 300px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .center {
-    height: 300px;
-    display: flex;
-    justify-content: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .flexEnd {
-    height: 300px;
-    display: flex;
-    justify-content: flex-end;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .spaceBetween {
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .spaceAround {
-    height: 300px;
-    display: flex;
-    justify-content: space-around;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .spaceEvenly {
-    height: 300px;
-    display: flex;
-    justify-content: space-evenly;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-
 .flexStartVertical {
-    height: 300px;
-    display: flex;
-    align-items: flex-start;
-
+  height: 300px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .centerVertical {
-    height: 300px;
-    display: flex;
-    align-items: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
 }
 
 .flexEndVertical {
-    height: 300px;
-    display: flex;
-    align-items: flex-end;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
 }
 
-
-
-
-
-
-
 .row {
-    height: 300px;
-    display: flex;
-
+  height: 300px;
+  display: flex;
 }
 
 .rowReverse {
-    height: 300px;
-    display: flex;
-    flex-direction: row-reverse;
+  height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .column {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .columnReverse {
-    height: 300px;
-    display: flex;
-    flex-direction: column-reverse;
+  height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .box1,
 .box2,
 .box3 {
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-    margin: 10px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin: 10px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .exampleFlexDescription {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
-
 .flexintroContent {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .flexintroContent h4 {
-    font-size: clamp(20px, 1.2vw, 22px);
-    font-weight: 100;
+  font-size: clamp(20px, 1.2vw, 22px);
+  font-weight: 100;
 }
 
 .flexIntropoints {
-    width: 100%;
-    padding-left: 40px;
+  width: 100%;
+  padding-left: 40px;
 }
 
 .flexIntropoints h5 {
-    font-weight: 100;
-    font-size: 18px;
+  font-weight: 100;
+  font-size: 18px;
 }
 
 .exampleJustifyContent {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: center;
-
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
 }
 
 .exampleJustifyContentIntro {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 18px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
 }
 
 .exampleJustifyContentIntro h2 {
-    font-size: 39px;
-    font-weight: 600;
+  font-size: 39px;
+  font-weight: 600;
 }
 
 .exampleJustifyContentIntro h3 {
-    font-size: 29px;
-    font-weight: 400;
+  font-size: 29px;
+  font-weight: 400;
 }
 
 .exampleJustifyContentIntro h4 {
-    font-size: 24px;
-    font-weight: 100;
+  font-size: 24px;
+  font-weight: 100;
 }
 
 .exampleJustifyContentIntro h5 {
-    font-size: 19px;
-    font-weight: 100;
+  font-size: 19px;
+  font-weight: 100;
 }
 
-
 .commonJustifyClass {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 7px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
 }
 
 .commonJustifyClass h3 {
-    font-size: 25px;
-    font-weight: 500;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .commonJustifyClass h4 {
-    font-size: 17px;
-    font-weight: 200;
+  font-size: 17px;
+  font-weight: 200;
 }

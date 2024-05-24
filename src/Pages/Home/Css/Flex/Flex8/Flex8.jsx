@@ -75,9 +75,17 @@ const Flex8 = () => {
           <div className="inputHeadings8">
             <h1>Help the mario's to reach the respected coloured blocks</h1>
             <h3>Use the properties like </h3>
-            <h3>Justify-Content: <span>space-between, space-evenly, space-around</span></h3>
-            <h3>Align-items: center, <span>flex-start, flex-end</span></h3>
-            <h3>Flex-direction : <span>column, column-reverse, row ,row-reverse</span></h3>
+            <h3>
+              Justify-Content:{" "}
+              <span>space-between, space-evenly, space-around</span>
+            </h3>
+            <h3>
+              Align-items: center, <span>flex-start, flex-end</span>
+            </h3>
+            <h3>
+              Flex-direction :{" "}
+              <span>column, column-reverse, row ,row-reverse</span>
+            </h3>
           </div>
 
           <div className="input8">

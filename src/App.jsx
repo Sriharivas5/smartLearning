@@ -21,7 +21,6 @@ import SelectorsIntro from "./Pages/Home/Css/Selectors/SelectorsIntro/SelectorsI
 import Selectors from "./Pages/Home/Css/Selectors/Selector1/Selectors";
 import Selectors2 from "./Pages/Home/Css/Selectors/Selectors2/Selectors2";
 import Selectors3 from "./Pages/Home/Css/Selectors/Selectors3/Selectors3";
-import Selectors4 from "./Pages/Home/Css/Selectors/Selectors4/Selectors4";
 
 import PositionIntro from "./Pages/Home/Css/Positions/PositionIntro/PositionIntro";
 import Positions from "./Pages/Home/Css/Positions/Position1/Positions";
@@ -88,10 +87,7 @@ const App = () => {
             path="/Smart-Learning/Css/Selectors/Selectors3"
             element={<Selectors3 />}
           />
-          <Route
-            path="/Smart-Learning/Css/Selectors/Selectors4"
-            element={<Selectors4 />}
-          />
+        
           <Route
             path="/Smart-Learning/Css/Positions/PositionIntro"
             element={<PositionIntro />}

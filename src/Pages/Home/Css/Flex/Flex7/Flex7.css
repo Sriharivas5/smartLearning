@@ -1,140 +1,135 @@
 .main7 {
-    max-width: 100vw;
-    height: 110vh;
-    text-align: center;
-    padding: 20px 0;
-    background-image: linear-gradient(to right, #69aceb, #095a9d);
-
+  max-width: 100vw;
+  height: 110vh;
+  text-align: center;
+  padding: 20px 0;
+  background-image: linear-gradient(to right, #69aceb, #095a9d);
 }
 
 .level7 {
-    height: 5%;
-
+  height: 5%;
 }
 
 .gameContainer7 {
-    width: 100%;
-    height: 90%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    gap: 30px;
+  width: 100%;
+  height: 90%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .container7 {
-    width: 50%;
-    height: 70%;
-    background-image: url('../assets/ground.png'), url('../assets/sky.jpg');
-    border-radius: 5px;
-    background-position: right bottom, left top;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    /* padding: 10px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: relative;
+  width: 50%;
+  height: 70%;
+  background-image: url("../assets/ground.png"), url("../assets/sky.jpg");
+  border-radius: 5px;
+  background-position: right bottom, left top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
 }
 
 .land7 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column-reverse;  
-    justify-content: space-evenly;
-    align-items:center;
-    position: absolute;
-    gap: 40px;
-    top: 70px;
-    /* width: 20%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  gap: 40px;
+  top: 70px;
+  /* width: 20%;
     height: 10%;*/
 }
 
 .land7 img {
-    width: 45px;
-    z-index: 9;
+  width: 45px;
+  z-index: 9;
 }
 
 .object7 img {
-    width: 100px;
-    height: 100px;
-    z-index: 1;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
 }
 
 .object7 #redMario {
-    filter: saturate(130%);
+  filter: saturate(130%);
 }
-.object7  #blueMario {
-    filter: hue-rotate(280deg) saturate(130%);
+.object7 #blueMario {
+  filter: hue-rotate(280deg) saturate(130%);
 }
 
-.land7 #blueLand{
-    filter: hue-rotate(280deg) saturate(130%) contrast(200%);
+.land7 #blueLand {
+  filter: hue-rotate(280deg) saturate(130%) contrast(200%);
 }
-.land7 #redLand{
-    filter: hue-rotate(340deg) saturate(130%) contrast(200%);
+.land7 #redLand {
+  filter: hue-rotate(340deg) saturate(130%) contrast(200%);
 }
 
 .object7 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    /* bottom: 50px;    */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* bottom: 50px;    */
 }
-
 
 .inputHeadings7 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
-.inputHeadings7 h1{
-    font-size: 28px;
+.inputHeadings7 h1 {
+  font-size: 28px;
 }
 .inputContainer7 input {
-    width: 300px;
-    padding: 10px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
+  width: 300px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 .inputContainer7 {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .input7 {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 15px;
 }
 
-
 .inputDiv7 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .inputContainer7 button {
-    width: 120px;
-    padding: 10px;
-    font-size: 18px;
-
+  width: 120px;
+  padding: 10px;
+  font-size: 18px;
 }
 
 #nextLevel {
-    background-color: #D4F1F8;
-    border: none;
-    border-radius: 7px;
+  background-color: #d4f1f8;
+  border: none;
+  border-radius: 7px;
 }

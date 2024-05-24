@@ -1,6 +1,6 @@
 .selectorsContainer {
   max-width: 100vw;
-  color: aliceblue  ;
+  color: aliceblue;
   background-image: linear-gradient(to right, #4e4e8e, #031c37);
 }
 .heading {
@@ -39,7 +39,7 @@
   border-radius: 5px;
 }
 
-  /* img {
+/* img {
     max-width: 200px;
     max-height: 200px;
   } */
@@ -130,6 +130,6 @@ pre {
   color: aliceblue;
 }
 
-#none{
+#none {
   display: none;
 }

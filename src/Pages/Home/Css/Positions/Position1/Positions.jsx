@@ -47,7 +47,11 @@ const Positions = () => {
               type="text"
               value={positionInput}
               onChange={(e) => setPositionInput(e.target.value)}
-              onKeyDown={(e)=>{if(e.key=="Enter"){handleClick()}}}
+              onKeyDown={(e) => {
+                if (e.key == "Enter") {
+                  handleClick();
+                }
+              }}
             />
           </div>
           <div className="commonInputParent">
@@ -57,8 +61,11 @@ const Positions = () => {
               placeholder="left"
               onChange={(e) => setLeftInput(e.target.value)}
               value={leftInput}
-              onKeyDown={(e)=>{if(e.key=="Enter"){handleClick()}}}
-
+              onKeyDown={(e) => {
+                if (e.key == "Enter") {
+                  handleClick();
+                }
+              }}
             />
           </div>
           <div className="commonInputParent">
@@ -68,8 +75,11 @@ const Positions = () => {
               placeholder="top"
               onChange={(e) => setBottomInput(e.target.value)}
               value={bottomInput}
-              onKeyDown={(e)=>{if(e.key=="Enter"){handleClick()}}}
-             
+              onKeyDown={(e) => {
+                if (e.key == "Enter") {
+                  handleClick();
+                }
+              }}
             />
           </div>
           <button onClick={handleClick}>Submit</button>
