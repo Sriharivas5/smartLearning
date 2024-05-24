@@ -55,7 +55,7 @@ const App = () => {
         <Navbar />
 
         <Routes>
-          <Route path="/sm" element={<Home />} />
+          <Route path="/smartLearning" element={<Home />} />
           <Route path="/Smart-Learning/Css" element={<Csshome />} />
           <Route path="/Smart-Learning/Js" element={<Javascript />} />
 

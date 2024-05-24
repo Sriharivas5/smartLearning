@@ -47,7 +47,7 @@ const Navbar = () => {
             </ul> */}
       <ul className="nav ">
         <li>
-          <Link to="/Smart-Learning/">
+          <Link to="/smartLearning/">
             <h1>Home</h1>
           </Link>
         </li>
